@@ -5,3 +5,5 @@ env/
 setup.cfg
 setup.py
 aix/*.pyc
+.DS_Store
+.idea
