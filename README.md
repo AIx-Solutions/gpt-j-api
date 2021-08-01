@@ -2,4 +2,4 @@
 
 Submit issues and feature requests for our API here.
 
-See apps.aixsolutionsgroup.com for more info.
+See <a>https://apps.aixsolutionsgroup.com</a> for more info.
