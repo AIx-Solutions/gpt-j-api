@@ -1,4 +1,4 @@
-from aix.resource import AIxResource
+from aixapi import AIxResource
 
 
 class Examples:

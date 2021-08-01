@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aixapi
+Version: 0.0.2
+Summary: AI for everyone. With this API, you can access GPT-J. GPT-J is more powerful than OpenAI's GPT-3 Ada engine.
+Home-page: https://github.com/AIx-Solutions/aix-gpt-api
+Author: AIx Solutions Group, Inc
+Author-email: info@aixsolutionsgroup.com
+License: UNKNOWN
+Description: # AIx GPT API
+        
+        Submit issues and feature requests for our API here.
+        
+        See <a>https://apps.aixsolutionsgroup.com</a> for more info.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

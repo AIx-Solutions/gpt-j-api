@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+aixapi/__init__.py
+aixapi/resource.py
+aixapi.egg-info/PKG-INFO
+aixapi.egg-info/SOURCES.txt
+aixapi.egg-info/dependency_links.txt
+aixapi.egg-info/top_level.txt
