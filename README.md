@@ -17,3 +17,11 @@ Get an API key for free at <a>https://apps.aixsolutionsgroup.com</a>.
 `result = AIxResource("MY_API_KEY").compose("hello!")`
 
 `print(result)`
+
+## Python Documentation
+
+To get documentation in python, run `help(AIxResource)` after importing `AIxResource` as shown above.
+
+## Documentation
+
+For full documentation go to <a>https://apps.aixsolutionsgroup.com</a> and click on the Documentation tab.
