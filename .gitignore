@@ -1,0 +1,7 @@
+helpers/
+build/
+dist/
+env/
+setup.cfg
+setup.py
+aix/*.pyc
