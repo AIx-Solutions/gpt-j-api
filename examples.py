@@ -1,4 +1,5 @@
 from aixapi import AIxResource
+import json
 
 
 class Examples:
@@ -21,13 +22,14 @@ class Examples:
         response = self.__resource.compose(
             "Hello!"
         )
-        print(response)
+        print(json.dumps(response, indent=4, sort_keys=True))
         return response
 
 
 if __name__ == "__main__":
     # Try an example...
     # Get your API Key at apps.aixsolutionsgroup.com
+    # UPGRADE TO GPU (RESPONSE TIMES FASTER BY 10 SECONDS OR MORE) AT https://apps.aixsolutionsgroup.com/pricing
     api_key = "INSERT_YOUR_API_KEY_HERE"
     aix_resource = AIxResource(api_key)
 
@@ -50,4 +52,4 @@ if __name__ == "__main__":
     print("-" * 250)
 
     # To see documentation, run:
-    help(AIxResource)
+    # help(AIxResource)

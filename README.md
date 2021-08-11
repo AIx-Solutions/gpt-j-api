@@ -1,5 +1,7 @@
 # AIx GPT API
 
+Free tier uses a CPU. GPU access costs just $8 / month. This speeds up responses by 10 seconds or more. Upgrade <a href="https://apps.aixsolutionsgroup.com/pricing">here</a> for faster AI responses.
+
 Submit issues and feature requests for our API here.
 
 See <a>https://apps.aixsolutionsgroup.com</a> for more info.
