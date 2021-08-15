@@ -5,7 +5,8 @@ import requests
 
 class AIxResource:
 
-    __url = "https://api.aixsolutionsgroup.com/v1/"
+    __url = "http://10.0.0.185:8080/v1/"
+    # __url = "https://api.aixsolutionsgroup.com/v1/"
 
     class RequestMethod(Enum):
         GET = "GET"
@@ -117,19 +118,24 @@ class AIxResource:
         assert type(top_k) is int
         assert type(prompt) is str
         assert type(stop_sequence) is str
-        assert type(custom_model_id) is str
+        if custom_model_id is not None:
+            assert type(custom_model_id) is str
+
+        payload = {
+            "prompt": prompt,
+            "token_min_length": token_min_length,
+            "token_max_length": token_max_length,
+            "temperature": temperature,
+            "top_p": top_p,
+            "top_k": top_k,
+            "stop_sequence": stop_sequence
+        }
+
+        if custom_model_id is not None:
+            payload["custom_model_id"] = custom_model_id
 
         return self._request(
-            payload={
-                "prompt": prompt,
-                "token_min_length": token_min_length,
-                "token_max_length": token_max_length,
-                "temperature": temperature,
-                "top_p": top_p,
-                "top_k": top_k,
-                "stop_sequence": stop_sequence,
-                "custom_model_id": custom_model_id
-            },
+            payload=payload,
             endpoint="compose",
             request_method=self.RequestMethod.POST
         )
