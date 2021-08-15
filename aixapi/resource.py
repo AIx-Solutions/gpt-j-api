@@ -5,8 +5,7 @@ import requests
 
 class AIxResource:
 
-    __url = "http://10.0.0.185:8080/v1/"
-    # __url = "https://api.aixsolutionsgroup.com/v1/"
+    __url = "https://api.aixsolutionsgroup.com/v1/"
 
     class RequestMethod(Enum):
         GET = "GET"
